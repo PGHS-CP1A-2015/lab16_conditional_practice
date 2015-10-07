@@ -11,10 +11,11 @@ namespace Lab16_Conditionals
         /**
         Aren't I nice? I started this method for you
         **/
-        public static bool isMultipleOf3(int v)
+        public static bool isMultipleOf3(int number)
         {
-            throw new NotImplementedException();
+            //
         }
+
 
         /**
         You will need to write the rest of these on your own

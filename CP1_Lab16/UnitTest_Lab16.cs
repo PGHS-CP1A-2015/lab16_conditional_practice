@@ -25,7 +25,7 @@ namespace CP1_Lab16
             Assert.IsTrue(cm.isMultipleOf5(1030));
             // isMultipleOf7
             Assert.IsTrue(cm.isMultipleOf7(21));
-            Assert.IsFalse(cm.isMultipleOf7(49));
+            Assert.IsTrue(cm.isMultipleOf7(49));
             Assert.IsTrue(cm.isMultipleOf7(168));
 
         }
@@ -44,7 +44,7 @@ namespace CP1_Lab16
         {
             // isMultipleOf3And5
             Assert.IsFalse(cm.isMultipleOf3And5(9));
-            Assert.IsFalse(cm.isMultipleOf3And5(15));
+            Assert.IsFalse(cm.isMultipleOf3And5(16));
             Assert.IsTrue(cm.isMultipleOf3And5(5175));
             Assert.IsFalse(cm.isMultipleOf3And5(5172));
 
@@ -53,7 +53,8 @@ namespace CP1_Lab16
         [TestMethod]
         public void TestAge()
         {
-            // given an age, figure out whether someone is a baby, toddler, child, teenager, adult, or old codger
+            // given an age, figure out whether someone 
+            // is a baby, toddler, child, teenager, adult, or old codger
             /*
              old codger = 90 or higher
              adult = 18 to 89
