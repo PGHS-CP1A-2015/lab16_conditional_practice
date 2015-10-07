@@ -9,7 +9,7 @@ namespace Lab16_Conditionals
     public static class MyConditionalMethods
     {
         /**
-        Aren't I nice? I started these two methods for you
+        Aren't I nice? I started this method for you
         **/
         public static bool isMultipleOf3(int v)
         {
