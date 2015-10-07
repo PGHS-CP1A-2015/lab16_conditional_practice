@@ -8,6 +8,23 @@ namespace Lab16_Conditionals
 {
     public static class MyConditionalMethods
     {
+        /**
+        Aren't I nice? I started these two methods for you
+        **/
+        public static bool isMultipleOf3(int v)
+        {
+            throw new NotImplementedException();
+        }
 
+        /**
+        You will need to write the rest of these on your own
+        
+        isMultipleOf5(int v)
+        isMultipleOf7(int v)
+        isMultipleOf3Or5(int v)
+        isMultipleOf3And5(int v)
+        ageCategory(double v)
+        percentageToGrade(int v)
+        **/
     }
 }
