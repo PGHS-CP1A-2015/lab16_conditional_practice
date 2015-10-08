@@ -64,16 +64,16 @@ namespace CP1_Lab16
              baby = 0 - 1.4
              unknown = negative numbers
             */
-            Assert.Equals("baby", cm.ageCategory(0));
-            Assert.Equals("baby",cm.ageCategory(1));
-            Assert.Equals("baby", cm.ageCategory(1.4));
-            Assert.Equals("adult", cm.ageCategory(45));
-            Assert.Equals("teenager", cm.ageCategory(13));
-            Assert.Equals("teenager", cm.ageCategory(17));
-            Assert.Equals("adult", cm.ageCategory(18));
-            Assert.Equals("old codger", cm.ageCategory(90));
-            Assert.Equals("old codger", cm.ageCategory(120));
-            Assert.Equals("unknown", cm.ageCategory(-5));
+            Assert.AreEqual("baby", cm.ageCategory(0));
+            Assert.AreEqual("baby",cm.ageCategory(1));
+            Assert.AreEqual("baby", cm.ageCategory(1.4));
+            Assert.AreEqual("adult", cm.ageCategory(45));
+            Assert.AreEqual("teenager", cm.ageCategory(13));
+            Assert.AreEqual("teenager", cm.ageCategory(17));
+            Assert.AreEqual("adult", cm.ageCategory(18));
+            Assert.AreEqual("old codger", cm.ageCategory(90));
+            Assert.AreEqual("old codger", cm.ageCategory(120));
+            Assert.AreEqual("unknown", cm.ageCategory(-5));
         }
         [TestMethod]
         public void TestGrades()
@@ -94,19 +94,19 @@ namespace CP1_Lab16
                 F  = < 61% to 0%
                 Unknown = negative number
                 */
-            Assert.Equals("A", cm.percentageToGrade(94));
-            Assert.Equals("A-", cm.percentageToGrade(93));
-            Assert.Equals("B+", cm.percentageToGrade(89));
-            Assert.Equals("B", cm.percentageToGrade(85));
-            Assert.Equals("B-", cm.percentageToGrade(81));
-            Assert.Equals("C+", cm.percentageToGrade(77));
-            Assert.Equals("C", cm.percentageToGrade(75));
-            Assert.Equals("C-", cm.percentageToGrade(73));
-            Assert.Equals("D+", cm.percentageToGrade(69));
-            Assert.Equals("D", cm.percentageToGrade(64));
-            Assert.Equals("D-", cm.percentageToGrade(63));
-            Assert.Equals("F", cm.percentageToGrade(10));
-            Assert.Equals("Unknown", cm.percentageToGrade(-1));
+            Assert.AreEqual("A", cm.percentageToGrade(94));
+            Assert.AreEqual("A-", cm.percentageToGrade(93));
+            Assert.AreEqual("B+", cm.percentageToGrade(89));
+            Assert.AreEqual("B", cm.percentageToGrade(85));
+            Assert.AreEqual("B-", cm.percentageToGrade(81));
+            Assert.AreEqual("C+", cm.percentageToGrade(77));
+            Assert.AreEqual("C", cm.percentageToGrade(75));
+            Assert.AreEqual("C-", cm.percentageToGrade(73));
+            Assert.AreEqual("D+", cm.percentageToGrade(69));
+            Assert.AreEqual("D", cm.percentageToGrade(64));
+            Assert.AreEqual("D-", cm.percentageToGrade(63));
+            Assert.AreEqual("F", cm.percentageToGrade(10));
+            Assert.AreEqual("Unknown", cm.percentageToGrade(-1));
         }
     }
 }
